@@ -18,8 +18,8 @@
         <project.launcherErr>O registro refere-se a uma instalação inexistente do Java no caminho relativo ${jdk.path}.</project.launcherErr>
         <project.instanceAlreadyExistsMsg>Uma instância do aplicativo já está em execução.</project.instanceAlreadyExistsMsg>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <exec.mainClass>br.com.kv8service.netpulse.client.NetpulseClient</exec.mainClass>
         <projectBuild>2024.8.21.2</projectBuild>
         <project.organization.name>KV8Service</project.organization.name>
@@ -42,7 +42,7 @@
     
     <build>
         <plugins>
-            <plugin>
+<!--            <plugin>
                 <artifactId>maven-antrun-plugin</artifactId>
                 <executions>
                     <execution>
@@ -62,7 +62,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId> 
